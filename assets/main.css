@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #202040;
+  color: #fff;
+  font-family: Roboto;
+}
+
+.navbar-custom {
+  background-color: transparent;
+}
+
+.navbar-custom .nav-link {
+  color: #fff;
+}
+
+.my-name {
+  font-weight: 900;
+  font-size: 90px;
+  color: #9391FF;
+  line-height: 105px;
+}
+
+.my-title {
+  font-weight: 500;
+  font-size: 40px;
+  color: #DFE1E6;
+}
+
+.home-intro {
+  line-height: 32px;
+  font-size: 20px;
+  color: #B3BAC5;
+}
+
+.home-border {
+  border-top: 1px solid #646369;
+  border-bottom: 1px solid #646369;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav .nav-item {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.about-title {
+  text-align: left;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  color: #9390FF;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.description,
+.project-img {
+  height: 450px;
+  width: 100%;
+}
+
+.description {
+  text-align: left;
+}
+
+.sub-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+
+.proj-description {
+  color: #DFE1E6;
+  line-height: 28px;
+}
+
+.btn-b {
+  background: #9390FF;
+  margin: 5px;
+}
