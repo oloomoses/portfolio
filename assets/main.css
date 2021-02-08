@@ -17,23 +17,46 @@ body {
   color: #fff;
 }
 
+.home {
+  height: 100vh;
+}
+
+.hi {
+  font-weight: bold;
+  font-size: 27px;
+  color: #64ffda;
+}
+
+.start {
+  padding-top: 20%;
+}
+
 .my-name {
   font-weight: 900;
   font-size: 90px;
-  color: #9391FF;
+  color: #DFE1E6;
   line-height: 105px;
 }
 
 .my-title {
   font-weight: 500;
-  font-size: 40px;
-  color: #DFE1E6;
+  font-size: 40px;  
+  color: #9391FF;
 }
 
 .home-intro {
   line-height: 32px;
   font-size: 20px;
   color: #B3BAC5;
+}
+
+.profile-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-wraper {  
+  width: 250px;
 }
 
 .home-border {
@@ -49,7 +72,7 @@ body {
 }
 
 .about {
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .about-title {
@@ -89,4 +112,4 @@ body {
 .btn-b {
   background: #9390FF;
   margin: 5px;
-}
+} 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Moses</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -12,15 +12,15 @@
   <script src="https://kit.fontawesome.com/6f10e3c92e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-custom py-3">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav ml-auto">
+        <div class="navbar-nav">
           <div class="nav-item">
             <a class="nav-link" href="#" id = "home">Home</a>
           </div>
@@ -32,196 +32,204 @@
           </div>
         </div>
       </div>
+
+      <div class="navbar-nav">
+          <div class="nav-item">
+            <a class="nav-link" href="https://twitter.com/olooine"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://github.com/oloomoses"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/oloomoses/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+
     </nav>
+    <div class="container">
 
-    <div class="home text-center">
-
-      <div class="header mt-5">
-        <h1 class="my-name mt-4">Oloo Moses</h1>
-        <h3 class = "my-title mt-4">Full Stack Developer</h3>
+      <div class="home">
+        <div class="start">
+          <p class="hi">Hello, My name is </p>
+          <h2 class="my-name">Oloo Moses</h2>
+          <h3 class = "my-title">Full Stack Developer</h3>
+          <div class="intro" style="width: 600px; font-size: 22px;">
+            Hello, I’m a software developer! I can help you build a
+            product or feature in your application. Look through some of my work
+            and experience! If you like what you see and have a project,
+            don’t hesitate to contact me.
+          </div>
+        </div>
       </div>
 
-      <div class="home-main mt-5">
 
-        <div class="row m-5 home-intro">
-            <div class="col-md-6 offset-md-3 intro">
-              Hello, I’m a software developer! I can help you build a
-              product or feature in your application. Look through some of my work
-              and experience! If you like what you see and have a project,
-              don’t hesitate to contact me.
-            </div>
+      <div class="row about">
+        <div class="col-sm col-md-4 ">
+          <div class="profile-wraper">
+            <img src="./assets/images/pr_photo.png" alt="Profile Photo" class="rounded profile-img">
+          </div>  
         </div>
 
-        <div class="row ml-5 text-left home-aside">
-              <div class = "col-md-6 offset-md-3">
-                  <div class="row home-border">
-                    <div class="col-lg-4 col-md-5 col-5">
-                      <b>Language</b>
-                      <div class = "nav d-block">
-                        <div class = "nav-item">Javascript</div>
-                        <div class = "nav-item">Ruby </div>
-                        <div class = "nav-item">HTML</div>
-                        <div class = "nav-item">CSS</div>
-                        <div class = "nav-item">SASS</div>
-                      </div>
-                    </div>
+        <div class="col-sm col-md-6 about">
+          <h3>About Me</h3>
+          <div class="intro">
+            Hello, I’m a software developer! I can help you build a
+            product or feature in your application. Look through some of my work
+            and experience! If you like what you see and have a project,
+            don’t hesitate to contact me.
+          </div>
+        </div>
+      </div>
 
-                    <div class="col-lg-4 col-md-5 col-5">
-                      <b>Frameworks</b>
-                      <div class = "nav d-block">
-                        <div class = "nav-item">Ruby on Rails</div>
-                        <div class = "nav-item">React and Redux</div>
-                        <div class = "nav-item">Bootstrap</div>
-                        <div class = "nav-item">Bulma</div>
-                        <div class = "nav-item">Rspec</div>
-                      </div>
-                    </div>
+          
+            <div class="row ml-5 text-left home-aside">
+                  <div class = "col-md-6 offset-md-3">
+                      <div class="row home-border">
+                        <div class="col-lg-4 col-md-5 col-5">
+                          <b>Language</b>
+                          <div class = "nav d-block">
+                            <div class = "nav-item">Javascript</div>
+                            <div class = "nav-item">Ruby </div>
+                            <div class = "nav-item">HTML</div>
+                            <div class = "nav-item">CSS</div>
+                            <div class = "nav-item">SASS</div>
+                          </div>
+                        </div>
 
-                    <div class="col-lg-4 col-sm-4 col-4">
-                      <b>Skills</b>
-                      <div class = "nav d-block">
-                        <div class = "nav-item">Git</div>
-                        <div class = "nav-item">Github</div>
-                        <div class = "nav-item">Terminal</div>
-                        <div class = "nav-item">Heroku</div>
-                        <div class = "nav-item">AWS</div>
-                        <div class = "nav-item">Firebase</div>
-                      </div>
-                    </div>
+                        <div class="col-lg-4 col-md-5 col-5">
+                          <b>Frameworks</b>
+                          <div class = "nav d-block">
+                            <div class = "nav-item">Ruby on Rails</div>
+                            <div class = "nav-item">React and Redux</div>
+                            <div class = "nav-item">Bootstrap</div>
+                            <div class = "nav-item">Bulma</div>
+                            <div class = "nav-item">Rspec</div>
+                          </div>
+                        </div>
 
+                        <div class="col-lg-4 col-sm-4 col-4">
+                          <b>Skills</b>
+                          <div class = "nav d-block">
+                            <div class = "nav-item">Git</div>
+                            <div class = "nav-item">Github</div>
+                            <div class = "nav-item">Terminal</div>
+                            <div class = "nav-item">Heroku</div>
+                            <div class = "nav-item">AWS</div>
+                            <div class = "nav-item">Firebase</div>
+                          </div>
+                        </div>
+
+                      </div>
                   </div>
+            </div>
+
+        <div class = "about">
+          <div class = "about-title">My Recent Work</div>
+
+          <div class="row mb-5">
+            <div class="col-lg-6 col-sm-12 col-12">
+              <img class = "project-img img-fluid" src="assets/images/conference.png" alt="Project image">
+            </div>
+
+            <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
+              <div class="sub-title">Music Conference Capstone</div>
+              <div class="proj-description">
+                <p>This is a capstone project build from scratch, to showcase some of the fundamental 
+                  concepts that I have learnt throughout the microverse HTML CSS main course.</p>
               </div>
-        </div>
+              <div class="tags">
+                | HTML | CSS
+              </div>
 
-
-        <div class="row mt-5 mb-5">
-          <div class="col-lg-4 d-none d-lg-block">
-            <div class="right-footer">Work <span><i class="fas fa-arrow-down"></i></span></div>
-          </div>
-          
-          <div class="col-lg-4 col-sm mb-5">
-            <div class="middle-footer d-flex justify-content-around">
-              <div class="nav-item"><a href="https://twitter.com/olooine"><i class="fab fa-twitter fa-2x"></i></a></div>
-              <div class="nav-item"><a href="https://github.com/oloomoses"><i class="fab fa-github fa-2x"></i></a></div>
-              <div class="nav-item"><a href="https://www.linkedin.com/in/oloomoses/"><i class="fab fa-linkedin-in fa-2x"></i></a></div>
+              <div class="buttons mt-3">
+                <a href="https://github.com/oloomoses/CapstoneMusicConference" class="btn btn-b">See Project</a>
+                <a href="https://rawcdn.githack.com/oloomoses/CapstoneMusicConference/a26cafe0daec70a812784a61b8614dd1f424edd9/index.html" class="btn btn-b">Live Demo</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="left-footer"><span><i class="fas fa-arrow-down"></i></span> Work</div>
+
+          <div class="row mb-5">       
+
+            <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
+              <div class="sub-title">Ruby on Rails Social Scaffold</div>
+              <div class="proj-description">
+                <p>A social media app similar to facebook</p>
+              </div>
+              <div class="tags">
+                | HTML | CSS | Bootstrap4
+              </div>
+
+              <div class="buttons mt-3">
+                <a href="https://github.com/eduardoreisalvarenga/ror-social-scaffold" class="btn btn-b">See Project</a>
+                <a href="https://agile-chamber-96976.herokuapp.com/" class="btn btn-b">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 col-12">
+              <img class = "project-img img-fluid" src="assets/images/group-my-projects.png" alt="Project image">
+            </div>
+
+
           </div>
-          
+
+          <div class="row mb-5">
+            <div class="col-lg-6 col-sm-12 col-12">
+              <img class = "project-img img-fluid" src="assets/images/newsweek.png" alt="Project image">
+            </div>
+
+            <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
+              <div class="sub-title">NewsWeek Clone</div>
+              <div class="proj-description">
+                <p>Builed a clone of the newsweek.com landing page</p>
+              </div>
+              <div class="tags">
+                | HTML | CSS | Bootstrap
+              </div>
+
+              <div class="buttons mt-3">
+                <a href="https://github.com/oloomoses/newsweek.com-clone" class="btn btn-b">See Project</a>
+                <a href="https://rawcdn.githack.com/oloomoses/newsweek.com-clone/591f3d34bfd8806b73f13dd6c6346eb6c0bf39dc/index.html#" class="btn btn-b">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mb-5">       
+
+            <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
+              <div class="sub-title">Grouping Projects</div>
+              <div class="proj-description">
+                <p>This is my Ruby on Rails capstone project. I build a mobile web app that can be used by students to group their projects. 
+                  The app shows the project name, date created, and time taken to complete the project. 
+                  The app also shows the groups available. a user can add a new group and a project as well. 
+                  The summation of time spend on all the collective project by a user is also displayed.</p>
+              </div>
+              <div class="tags">
+                Ruby | Rails | HTML | CSS
+              </div>
+
+              <div class="buttons mt-3">
+                <a href="http://" class="btn btn-b">See Project</a>
+                <a href="http://" class="btn btn-b">Live Demo</a>
+                <a href="http://" class="btn btn-b">Video</a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 col-12">
+              <img class = "project-img img-fluid" src="assets/images/group-my-projects.png" alt="Project image">
+            </div>
+
+
+          </div>
+
         </div>
 
 
+        <!-- <div class="contact">
+          <h1>feel free to contact me through</h1>
+        </div> -->
     </div>
-
-    <div class = "about">
-      <div class = "about-title">My Recent Work</div>
-
-      <div class="row mb-5">
-        <div class="col-lg-6 col-sm-12 col-12">
-          <img class = "project-img img-fluid" src="assets/images/conference.png" alt="Project image">
-        </div>
-
-        <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
-          <div class="sub-title">Music Conference Capstone</div>
-          <div class="proj-description">
-            <p>This is a capstone project build from scratch, to showcase some of the fundamental 
-              concepts that I have learnt throughout the microverse HTML CSS main course.</p>
-          </div>
-          <div class="tags">
-            | HTML | CSS
-          </div>
-
-          <div class="buttons mt-3">
-            <a href="https://github.com/oloomoses/CapstoneMusicConference" class="btn btn-b">See Project</a>
-            <a href="https://rawcdn.githack.com/oloomoses/CapstoneMusicConference/a26cafe0daec70a812784a61b8614dd1f424edd9/index.html" class="btn btn-b">Live Demo</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row mb-5">       
-
-        <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
-          <div class="sub-title">Ruby on Rails Social Scaffold</div>
-          <div class="proj-description">
-            <p>A social media app similar to facebook</p>
-          </div>
-          <div class="tags">
-            | HTML | CSS | Bootstrap4
-          </div>
-
-          <div class="buttons mt-3">
-            <a href="https://github.com/eduardoreisalvarenga/ror-social-scaffold" class="btn btn-b">See Project</a>
-            <a href="https://agile-chamber-96976.herokuapp.com/" class="btn btn-b">Live Demo</a>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-sm-12 col-12">
-          <img class = "project-img img-fluid" src="assets/images/group-my-projects.png" alt="Project image">
-        </div>
-
-
-      </div>
-
-      <div class="row mb-5">
-        <div class="col-lg-6 col-sm-12 col-12">
-          <img class = "project-img img-fluid" src="assets/images/newsweek.png" alt="Project image">
-        </div>
-
-        <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
-          <div class="sub-title">NewsWeek Clone</div>
-          <div class="proj-description">
-            <p>Builed a clone of the newsweek.com landing page</p>
-          </div>
-          <div class="tags">
-            | HTML | CSS | Bootstrap
-          </div>
-
-          <div class="buttons mt-3">
-            <a href="https://github.com/oloomoses/newsweek.com-clone" class="btn btn-b">See Project</a>
-            <a href="https://rawcdn.githack.com/oloomoses/newsweek.com-clone/591f3d34bfd8806b73f13dd6c6346eb6c0bf39dc/index.html#" class="btn btn-b">Live Demo</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row mb-5">       
-
-        <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
-          <div class="sub-title">Grouping Projects</div>
-          <div class="proj-description">
-            <p>This is my Ruby on Rails capstone project. I build a mobile web app that can be used by students to group their projects. 
-              The app shows the project name, date created, and time taken to complete the project. 
-              The app also shows the groups available. a user can add a new group and a project as well. 
-              The summation of time spend on all the collective project by a user is also displayed.</p>
-          </div>
-          <div class="tags">
-            Ruby | Rails | HTML | CSS
-          </div>
-
-          <div class="buttons mt-3">
-            <a href="http://" class="btn btn-b">See Project</a>
-            <a href="http://" class="btn btn-b">Live Demo</a>
-            <a href="http://" class="btn btn-b">Video</a>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-sm-12 col-12">
-          <img class = "project-img img-fluid" src="assets/images/group-my-projects.png" alt="Project image">
-        </div>
-
-
-      </div>
-
-    </div>
-
-
-    <!-- <div class="contact">
-      <h1>feel free to contact me through</h1>
-    </div> -->
 
   </div>
 
