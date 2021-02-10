@@ -6,11 +6,11 @@
 body {
   background-color: #202040;
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .navbar-custom {
-  background-color: transparent;
+  background-image: linear-gradient(#202040, #141E30);
 }
 
 .navbar-custom .nav-link {
@@ -19,16 +19,18 @@ body {
 
 .home {
   height: 100vh;
+  /* background-color: #141E30; */
+  background-image: linear-gradient(#141E30, #202040, #141E30);
 }
 
 .hi {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 27px;
-  color: #64ffda;
+  color: #3ddb7a;
 }
 
 .start {
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .my-name {
@@ -40,30 +42,19 @@ body {
 
 .my-title {
   font-weight: 500;
-  font-size: 40px;  
+  font-size: 60px;  
   color: #9391FF;
 }
 
-.home-intro {
-  line-height: 32px;
-  font-size: 20px;
-  color: #B3BAC5;
-}
-
+.project-img,
 .profile-img {
   max-width: 100%;
   height: auto;
 }
 
 .profile-wraper {  
-  width: 250px;
-}
-
-.home-border {
-  border-top: 1px solid #646369;
-  border-bottom: 1px solid #646369;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  max-width: 450px;
+  /* height: 320px; */
 }
 
 .nav .nav-item {
@@ -71,25 +62,31 @@ body {
   line-height: 28px;
 }
 
-.about {
-  /* margin-top: 40px; */
+.about-wrapper {
+  background-color: #141E30;
 }
 
-.about-title {
+.skills,
+.contact,
+.about {
+  height: 60vh;
+}
+
+.project-img-wrapper {
+  width: 500px;
+  height: 320px;
+}
+
+.sections-title {
   text-align: left;
-  border-bottom: 1px solid #646369;
-  padding-bottom: 30px;
-  margin-bottom: 50px;
+  /* border-bottom: 1px solid #646369; */
+  padding-bottom: 10px;
+  margin-bottom: 30px;
   color: #9390FF;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 30px;
 }
 
-.description,
-.project-img {
-  height: 450px;
-  width: 100%;
-}
 
 .description {
   text-align: left;
@@ -102,14 +99,52 @@ body {
   font-size: 40px;
 }
 
-
-
 .proj-description {
   color: #DFE1E6;
   line-height: 28px;
 }
 
 .btn-b {
-  background: #9390FF;
+  background: transparent;
   margin: 5px;
-} 
+  border: 1px solid #3ddb7a;
+  color: #DFE1E6;
+}
+
+.btn-b:hover {
+  text-decoration: none;
+  color: #9390FF;
+}
+
+.work-description {
+  height: 200px;
+  overflow-y: scroll;
+  background-color: #202040;
+  padding: 20px;
+  /* border: 1px solid #3ddb7a; */
+  border-radius: 10px;
+}
+
+.contact-section {
+  background-color: #141E30;
+  margin-top: 100px;
+}
+
+.about,
+.skills,
+.contact {
+  padding-top: 8%;
+}
+
+.contacts-list{
+  font-size: 25px;
+}
+
+.brand,
+.contacts {
+  color: #3ddb7a;
+}
+
+.icon-color {
+  color: #3ddb7a;
+}
