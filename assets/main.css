@@ -68,6 +68,10 @@ body {
   background-color: #141E30;
 }
 
+.skills {
+  padding-top: 20%;
+}
+
 .skills,
 .contact,
 .about {
@@ -132,7 +136,6 @@ body {
 }
 
 .about,
-.skills,
 .contact {
   padding-top: 8%;
 }
