@@ -38,13 +38,13 @@
 
           <div class="navbar">
             <div class="nav-item">
-              <a class="nav-link" href="https://twitter.com/olooine"><i class="fab fa-twitter fa-lg"></i></a>
+              <a class="nav-link" href="https://twitter.com/olooine" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
             </div>
             <div class="nav-item">
-              <a class="nav-link" href="https://github.com/oloomoses"><i class="fab fa-github fa-lg"></i></a>
+              <a class="nav-link" href="https://github.com/oloomoses" target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </div>
             <div class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/oloomoses/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+              <a class="nav-link" href="https://www.linkedin.com/in/oloomoses/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
             </div>
           </div>
         </div>
@@ -68,15 +68,15 @@
           </div>
 
           <div class="buttons mt-5">
-            <a href="mailto:olooine@gmail.com" class="btn btn-b btn-lg">Get in touch</a>
+            <a href="mailto:olooine@gmail.com" class="btn btn-b btn-lg" target="_blank">Get in touch</a>
           </div>
         </div>
       </div>
 
 
-      <div class="about-wrapper" id="about">
+      <div class="about" id="about">
         <div class="container">
-          <div class="about">
+          <!-- <div class="about"> -->
               <div class = "sections-title">About</div>
               <div class="row">
                 <div class="col-sm col-md-7">
@@ -84,50 +84,29 @@
                     <p>Hello, my name is Moses and I am a Software Engineer based in Nairobi Kenya</p>
                     <p>I spend most of my daily life creating and learning about things that reside on the internet,
                       be it website, web applications or anything in between.
-                      Currently I am studying full-stack web development at <a href="https://www.microverse.org/">Microverse.</a>
+                      Currently I am studying full-stack web development at <a href="https://www.microverse.org/" target="_blank" class="a-tags">Microverse.</a>
                       I aspire toward a career that will allow me to channel 
                       my passion and creativity through crafting beautiful software and engaging experiences.
                     </p>
-                    <p>When I'm not on the computer, I enjoy playing chess and soccer</p>
+                    <p>When I'm not on the computer, I enjoy playing chess and soccer.</p>
                   </div>
                   <div class="buttons mt-3">
-                    Resume : <a href="https://docs.google.com/document/d/e/2PACX-1vSyKQJuLgYomA0TZkV9Dqm-GFYdne5v03N0vSp67mr5LSJzOgsOucqqqukgNCIglITC9P3quzwzu_j2/pub" class="btn btn-b btn-lg">view</a>
+                    Resume : <a 
+                                href="https://docs.google.com/document/d/e/2PACX-1vSyKQJuLgYomA0TZkV9Dqm-GFYdne5v03N0vSp67mr5LSJzOgsOucqqqukgNCIglITC9P3quzwzu_j2/pub" 
+                                class="btn btn-b btn-lg"
+                                target="_blank"
+                              >view</a>
                   </div>
-
-                  <div class="mt-3">
-                    <h4 class="text-center work-text">Experience</h4>
-                    <div class="work-description">
-                      <ul>
-                        <h5>Technical Support Engineer at <a href="https://www.microverse.org/">Microverse.</a></h5>
-                        Year: <span class="contacts">January 2021 - Present</span>
-                        <li class ="ml-4">I give students feedback to help them become the best programmers 
-                          they can be by assessing their code clarity and style, and by offering 
-                          suggestions about best practices</li>
-                        <li class ="ml-4">
-                          While reviewing student codes I also ensure that they understand the 
-                          objectives very well by arranging one-on-one video calls to help them attain mastery.
-                        </li><br>
-
-                        <h5>Teacher at Urafiki Carovana School</h5>
-                        Year: <span class="contacts">January 2017 - December 2019</span>
-                        <li class ="ml-4">Organized and assessed group projects, and presentations for 
-                          students which helped them to gain skills in pitching, self-presentation, 
-                          collaboration, and self-expression.</li>
-                        <li class ="ml-4">
-                          Helped more than 500 students master the basics of graphic design and computer programming
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  
                 </div>
 
                 <div class="col-sm col-md-5 ">
                   <div class="profile-wraper">
-                    <img src="./assets/images/pr_photo.png" alt="Profile Photo" class="rounded profile-img">
+                    <img src="./assets/images/pr_photo.png" alt="Profile Photo" class="rounded profile-img" />
                   </div>  
                 </div>            
               </div>
-            </div>
+            <!-- </div> -->
         </div>
       </div>
 
@@ -179,7 +158,31 @@
        <div class = "work" id="projects">
             <div class = "sections-title">My Recent Work</div>
 
-            <div class="row mb-5">
+            <div class="row projects-wrapper">       
+
+              <div class="col-md-6 description d-flex flex-column">
+                <div class="sub-title">Grouping Projects</div>
+                <div class="proj-description">
+                  <p>A mobile web grouping app that can be used by students to group projects into categories 
+                    and display the amount of time spent on each project.</p>
+                </div>
+                <div class="tags">
+                  Ruby on Rails | HTML | CSS
+                </div>
+
+                <div class="buttons mt-3">
+                  <a href="https://github.com/oloomoses/group-my-projects" class="btn btn-b" target="_blank">See Project</a>
+                  <a href="https://dry-tundra-15077.herokuapp.com/login" class="btn btn-b" target="_blank">Live Demo</a>
+                  <a href="https://www.loom.com/share/cf1349ef08c04836a5aaffd0dd7e8db1" class="btn btn-b" target="_blank">Video</a>
+                </div>
+              </div>
+
+              <div class="col-md-6 project-img-wrapper">
+                <img class = "project-img img-fluid rounded" src="assets/images/group-my-projects.png" alt="Project image" />
+              </div>
+            </div>
+
+            <div class="row projects-wrapper">
               <div class="col-lg-6 col-sm-12 col-12 project-img-wrapper">
                 <img class = "project-img img-fluid rounded" src="assets/images/conference.png" alt="Project image">
               </div>
@@ -193,18 +196,22 @@
                   </p>
                 </div>
                 <div class="tags">
-                  | HTML | CSS
+                  HTML | CSS
                 </div>
 
                 <div class="buttons mt-3">
-                  <a href="https://github.com/oloomoses/CapstoneMusicConference" class="btn btn-b">See Project</a>
-                  <a href="https://rawcdn.githack.com/oloomoses/CapstoneMusicConference/a26cafe0daec70a812784a61b8614dd1f424edd9/index.html" class="btn btn-b">Live Demo</a>
+                  <a href="https://github.com/oloomoses/CapstoneMusicConference" class="btn btn-b" target="_blank">See Project</a>
+                  <a 
+                    href="https://rawcdn.githack.com/oloomoses/CapstoneMusicConference/a26cafe0daec70a812784a61b8614dd1f424edd9/index.html" 
+                    class="btn btn-b" 
+                    target="_blank"
+                  >Live Demo</a>
                 </div>
               </div>
             </div>
 
 
-            <div class="row mb-5">       
+            <div class="row projects-wrapper">       
 
               <div class="col-lg-6 col-sm-12 col-12 description d-flex flex-column">
                 <div class="sub-title">Weather App</div>
@@ -213,12 +220,12 @@
                     for and view the forecast in cities worldwide. Built with JavaScript.</p>
                 </div>
                 <div class="tags">
-                  | HTML | CSS | Javascript | Webpack
+                  HTML | CSS | Javascript | Webpack
                 </div>
 
                 <div class="buttons mt-3">
-                  <a href="https://github.com/oloomoses/weatherApp" class="btn btn-b">See Project</a>
-                  <a href="https://oloomoses.github.io/weatherApp/" class="btn btn-b">Live Demo</a>
+                  <a href="https://github.com/oloomoses/weatherApp" class="btn btn-b" target="_blank">See Project</a>
+                  <a href="https://oloomoses.github.io/weatherApp/" class="btn btn-b" target="_blank">Live Demo</a>
                 </div>
               </div>
 
@@ -229,7 +236,7 @@
 
             </div>
 
-            <div class="row mb-5">
+            <div class="row projects-wrapper">
               <div class="col-lg-6 col-sm-12 col-12 project-img-wrapper">
                 <img class = "project-img img-fluid rounded" src="assets/images/newsweek.png" alt="Project image">
               </div>
@@ -246,37 +253,16 @@
                 </div>
 
                 <div class="buttons mt-3">
-                  <a href="https://github.com/oloomoses/newsweek.com-clone" class="btn btn-b">See Project</a>
-                  <a href="https://rawcdn.githack.com/oloomoses/newsweek.com-clone/591f3d34bfd8806b73f13dd6c6346eb6c0bf39dc/index.html#" class="btn btn-b">Live Demo</a>
+                  <a href="https://github.com/oloomoses/newsweek.com-clone" class="btn btn-b" target="_blank">See Project</a>
+                  <a 
+                    href="https://rawcdn.githack.com/oloomoses/newsweek.com-clone/591f3d34bfd8806b73f13dd6c6346eb6c0bf39dc/index.html#" 
+                    class="btn btn-b" 
+                    target="_blank"
+                  >Live Demo</a>
                 </div>
               </div>
-            </div>
-
-
-            <div class="row mb-5">       
-
-              <div class="col-md-6 description d-flex flex-column">
-                <div class="sub-title">Grouping Projects</div>
-                <div class="proj-description">
-                  <p>A mobile web grouping app that can be used by students to group projects into categories and display the amount of time spent on each project.</p>
-                </div>
-                <div class="tags">
-                  Ruby on Rails | HTML | CSS
-                </div>
-
-                <div class="buttons mt-3">
-                  <a href="https://github.com/oloomoses/group-my-projects" class="btn btn-b">See Project</a>
-                  <a href="https://dry-tundra-15077.herokuapp.com/login" class="btn btn-b">Live Demo</a>
-                  <a href="https://www.loom.com/share/cf1349ef08c04836a5aaffd0dd7e8db1" class="btn btn-b">Video</a>
-                </div>
-              </div>
-
-              <div class="col-md-6 project-img-wrapper">
-                <img class = "project-img img-fluid rounded" src="assets/images/group-my-projects.png" alt="Project image" />
-              </div>
-
-
-            </div>
+            </div>           
+            
           </div>       
     </div>
 
@@ -285,24 +271,24 @@
 
         <div class="container contact" id="contact">
           <div class = "sections-title">Get in Touch</div>
-              <p class="">For any information regarding my work kindly, contact me though the following phone number or email address.</p>
+              <p class="">For any information regarding my work, kindly contact me though the following phone number or email address.</p>
               <div class="contacts-list">
                 <span class="contacts">Phone :</span> +254 714244305 <br/><br/>
             
-                <span class="contacts">Email : </span> olooine@gmail.com
+                <span class="">Email : </span> <a href="mailto:olooine@gmail.com" target="_blank" class="a-tags">olooine@gmail.com</a> 
               </div>
 
 
           <br/><br/>
           <div class="navbar">
             <div class="nav-item">
-              <a class="nav-link" href="https://twitter.com/olooine"><i class="fab fa-twitter fa-3x icon-color"></i></a>
+              <a class="nav-link" href="https://twitter.com/olooine" target="_blank"><i class="fab fa-twitter fa-3x icon-color"></i></a>
             </div>
             <div class="nav-item">
-              <a class="nav-link" href="https://github.com/oloomoses"><i class="fab fa-github fa-3x icon-color"></i></a>
+              <a class="nav-link" href="https://github.com/oloomoses" target="_blank"><i class="fab fa-github fa-3x icon-color"></i></a>
             </div>
             <div class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/oloomoses/"><i class="fab fa-linkedin-in fa-3x icon-color"></i></a>
+              <a class="nav-link" href="https://www.linkedin.com/in/oloomoses/" target="_blank"><i class="fab fa-linkedin-in fa-3x icon-color"></i></a>
             </div>
           </div>
           
@@ -310,10 +296,10 @@
     </div>
 
 
-    <div class="footer py-4">
-
-      <div class="text-center">Designed & Build By <span class="contacts">Moses Oloo</span> </div>
+    <div class="footer py-3">
+      <div class="text-center">Designed & Built By <span class="contacts">Moses Oloo</span> </div>
     </div>
+
   </div>
 
 </body>

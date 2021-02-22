@@ -64,7 +64,7 @@ body {
   line-height: 28px;
 }
 
-.about-wrapper {
+.about {
   background-color: #141E30;
 }
 
@@ -80,7 +80,8 @@ body {
 
 .project-img-wrapper {
   width: 500px;
-  height: 320px;
+  max-height: 350px;
+  overflow: hidden;
 }
 
 .sections-title {
@@ -109,6 +110,10 @@ body {
   line-height: 28px;
 }
 
+.projects-wrapper {
+  height: 40vh;
+}
+
 .btn-b {
   background: transparent;
   margin: 5px;
@@ -116,6 +121,7 @@ body {
   color: #DFE1E6;
 }
 
+.a-tags:hover,
 .btn-b:hover {
   text-decoration: none;
   color: #9390FF;
@@ -144,15 +150,31 @@ body {
   font-size: 25px;
 }
 
+.a-tags,
 .brand,
-.contacts {
-  color: #3ddb7a;
-}
-
-.icon-color {
-  color: #3ddb7a;
-}
-
+.contacts,
+.icon-color,
 .nav-link:hover {
   color: #3ddb7a;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    height: 100vh;
+    text-align: center;
+    /* padding-top: 20px; */
+  }
+  .start {
+    padding-top: 3%;
+  }
+
+  .about {
+    height: 100vh;
+    /* padding-top: 3%; */
+  }
+
+  .skills{
+    height: 100vh;
+    /* padding-top: 3%; */
+  }
 }
