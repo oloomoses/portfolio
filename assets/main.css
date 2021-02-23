@@ -149,7 +149,47 @@ body {
   color: #3ddb7a;
 }
 
-@media only screen and (max-width: 600px) {
+.toggle {
+  color: #DFE1E6;
+  /* background-color: #3ddb7a; */
+}
+
+@media only screen and (max-width: 720px) {
+  .home {
+    height: 70vh;
+    text-align: center;
+    /* padding-top: 20px; */
+  }
+  .start {
+    padding-top: 3%;
+  }
+
+  .about {
+    height: 90vh;
+    /* padding-top: 1%; */
+  }
+
+  .skills{
+    height: 50vh;
+    /* padding-top: 3%; */
+  }
+
+  .projects-wrapper {
+    height: 70vh;
+    /* padding-top: 20%; */
+  }
+
+  .work {
+    /* padding-top: 6rem; */
+  }
+
+  .sub-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
   .home {
     height: 100vh;
     text-align: center;
@@ -175,7 +215,7 @@ body {
   }
 
   .work {
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
   }
 
   .sub-title {
