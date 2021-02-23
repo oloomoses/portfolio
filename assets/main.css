@@ -127,15 +127,6 @@ body {
   color: #9390FF;
 }
 
-.work-description {
-  height: 200px;
-  overflow-y: scroll;
-  background-color: #202040;
-  padding: 20px;
-  /* border: 1px solid #3ddb7a; */
-  border-radius: 10px;
-}
-
 .contact-section {
   background-color: #141E30;
   margin-top: 100px;
@@ -170,11 +161,25 @@ body {
 
   .about {
     height: 100vh;
-    /* padding-top: 3%; */
+    padding-top: 1%;
   }
 
   .skills{
     height: 100vh;
     /* padding-top: 3%; */
+  }
+
+  .projects-wrapper {
+    height: 100vh;
+    /* padding-top: 20%; */
+  }
+
+  .work {
+    padding-top: 6rem;
+  }
+
+  .sub-title {
+    text-align: center;
+    font-size: 2rem;
   }
 }
